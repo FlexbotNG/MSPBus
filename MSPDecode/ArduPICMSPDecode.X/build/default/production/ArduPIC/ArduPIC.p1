@@ -1,0 +1,26 @@
+Version 3.2 HI-TECH Software Intermediate Code
+[; ;ArduPIC.h: 34: void Init();
+[; ;ArduPIC.h: 37: void setup();
+[; ;ArduPIC.h: 38: unsigned char loop();
+[; ;ArduPIC.h: 41: void delay(unsigned long);
+"19 ArduPIC/ArduPIC.c
+[v _delay `(v  1 ef1`ul ]
+{
+[; ;ArduPIC.c: 19: void delay(unsigned long tnDelay) {
+[e :U _delay ]
+[v _tnDelay `ul  1 r1 ]
+[f ]
+[; ;ArduPIC.c: 20: for (; tnDelay > 0; tnDelay--);
+"20
+{
+[e $ > _tnDelay -> -> -> 0 `i `l `ul 2  ]
+[e $U 3  ]
+[e :U 2 ]
+[e -- _tnDelay -> -> -> 1 `i `l `ul ]
+[e $ > _tnDelay -> -> -> 0 `i `l `ul 2  ]
+[e :U 3 ]
+}
+[; ;ArduPIC.c: 21: }
+"21
+[e :UE 1 ]
+}

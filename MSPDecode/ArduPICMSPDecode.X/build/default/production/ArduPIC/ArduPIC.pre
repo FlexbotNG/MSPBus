@@ -1,0 +1,17 @@
+
+# 1 "ArduPIC/ArduPIC.c"
+
+# 34 "ArduPIC/ArduPIC.h"
+void Init();
+
+
+void setup();
+unsigned char loop();
+
+
+void delay(unsigned long);
+
+# 19 "ArduPIC/ArduPIC.c"
+void delay(unsigned long tnDelay) {
+for (; tnDelay > 0; tnDelay--);
+}

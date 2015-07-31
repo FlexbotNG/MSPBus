@@ -1,0 +1,473 @@
+HI-TECH Software C Compiler 
+
+Linker command line:
+
+--edf=C:\Program Files (x86)\HI-TECH Software\PICC\9.83\dat\en_msgs.txt -cs \
+  -h+dist/default/production\ArduPICMSPDecode.X.production.sym -z -Q16F688 \
+  -ol.obj -Mdist/default/production/ArduPICMSPDecode.X.production.map -E1 \
+  -ACONST=00h-0FFhx16 -ACODE=00h-07FFhx2 -ASTRCODE=00h-0FFFh \
+  -AENTRY=00h-0FFhx16 -ASTRING=00h-0FFhx16 -ABANK0=020h-06Fh \
+  -ABANK1=0A0h-0EFh -ABANK2=0120h-016Fh \
+  -ARAM=020h-06Fh,0A0h-0EFh,0120h-016Fh \
+  -AABS1=020h-07Fh,0A0h-0EFh,0120h-016Fh -ACOMMON=070h-07Fh -ASFR0=00h-01Fh \
+  -ASFR1=080h-09Fh -ASFR2=0100h-011Fh -ASFR3=0180h-01EFh \
+  -preset_vec=00h,intentry=04h,init,end_init -ppowerup=CODE -pfunctab=CODE \
+  -ACONFIG=02007h-02007h -pconfig=CONFIG -DCONFIG=2 -AIDLOC=02000h-02003h \
+  -pidloc=IDLOC -DIDLOC=2 -AEEDATA=00h-0FFh/02100h -peeprom_data=EEDATA \
+  -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
+  C:\Users\thinkpad\AppData\Local\Temp\s6r0.obj \
+  dist/default/production\ArduPICMSPDecode.X.production.obj 
+
+Object code version is 3.10
+
+Machine type is 16F688
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\thinkpad\AppData\Local\Temp\s6r0.obj
+                end_init                             11       11        2        8       0
+                reset_vec                             0        0        2        0       0
+dist/default/production\ArduPICMSPDecode.X.production.obj
+                intentry                              4        4        D        8       0
+                config                             2007     2007        1     400E       0
+                text684                             480      480        7      844       0
+                text683                             479      479        7      844       0
+                text682                             1D6      1D6       98        8       0
+                text681                             347      347       32        8       0
+                text680                             30B      30B       3C        8       0
+                text679                             2C9      2C9       42        8       0
+                text678                             472      472        7      844       0
+                text677                             422      422       16      844       0
+                text676                             379      379       2B        8       0
+                text675                             44D      44D       11      844       0
+                text674                             3C8      3C8       21        8       0
+                text673                             487      487        6      844       0
+                text672                             45E      45E        C      844       0
+                text671                             3E9      3E9       1D        8       0
+                text670                              13       13       F6        8       0
+                text669                             26E      26E       5B        8       0
+                text668                             109      109       CD        8       0
+                maintext                            3A4      3A4       24        8       0
+                cstackBANK0                          5A       5A       14       20       1
+                cstackCOMMON                         75       75        5       70       1
+                clrtext                             46A      46A        8      844       0
+                bssBANK1                             A0       A0       40       A0       1
+                bssBANK0                             20       20       3A       20       1
+                bssCOMMON                            70       70        5       70       1
+                cinit                               438      438       15      844       0
+                strings                             406      406       1C      80C       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   CONST          
+
+        CLASS   CODE           
+                end_init                             11       11        2         0
+                intentry                              4        4        D         0
+                reset_vec                             0        0        2         0
+                text684                             480      480        7         0
+                text683                             479      479        7         0
+                text682                             1D6      1D6       98         0
+                text681                             347      347       32         0
+                text680                             30B      30B       3C         0
+                text679                             2C9      2C9       42         0
+                text678                             472      472        7         0
+                text677                             422      422       16         0
+                text676                             379      379       2B         0
+                text675                             44D      44D       11         0
+                text674                             3C8      3C8       21         0
+                text673                             487      487        6         0
+                text672                             45E      45E        C         0
+                text671                             3E9      3E9       1D         0
+                text670                              13       13       F6         0
+                text669                             26E      26E       5B         0
+                text668                             109      109       CD         0
+                maintext                            3A4      3A4       24         0
+                clrtext                             46A      46A        8         0
+                cinit                               438      438       15         0
+
+        CLASS   STRCODE        
+
+        CLASS   ENTRY          
+
+        CLASS   STRING         
+                strings                             406      406       1C         0
+
+        CLASS   BANK0          
+                cstackBANK0                          5A       5A       14         1
+                bssBANK0                             20       20       3A         1
+
+        CLASS   BANK1          
+                bssBANK1                             A0       A0       40         1
+
+        CLASS   BANK2          
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+                abs_s1                               7E       7E        2         1
+
+        CLASS   COMMON         
+                cstackCOMMON                         75       75        5         1
+                bssCOMMON                            70       70        5         1
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   SFR2           
+
+        CLASS   SFR3           
+
+        CLASS   CONFIG         
+                config                             2007     2007        1         0
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+        CLASS   BANK3          
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vec                      000000  000002  000002         0       0  CODE        2
+                intentry                       000004  000402  000406         8       0  CODE        2
+                bssBANK0                       000020  00004E  00006E        20       1  BANK0       1
+                bssCOMMON                      000070  00000A  00007A        70       1  COMMON      1
+                bssBANK1                       0000A0  000040  0000E0        A0       1  BANK1       1
+                strings                        000406  00001C  000422       80C       0  STRING      2
+                text677                        000422  00006B  00048D       844       0  CODE        2
+                config                         002007  000001  002008      400E       0  CONFIG      2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            006E-006F              2           1
+        BANK1            00E0-00EF             10           1
+        BANK2            0120-016F             50           1
+        CODE             0002-0003              2           2
+                         048D-0FFF            373
+        COMMON           007A-007D              4           1
+        CONST            0002-0003              2           2
+                         048D-0FFF            100
+        EEDATA           2100-21FF            100           2
+        ENTRY            0002-0003              2           2
+                         048D-0FFF            100
+        IDLOC            2000-2003              4           2
+        RAM              006E-006F              2           1
+                         00E0-00EF             10
+                         0120-016F             50
+        SFR0             0000-001F             20           1
+        SFR1             0080-009F             20           1
+        SFR2             0100-011F             20           1
+        SFR3             0180-01EF             70           1
+        STRCODE          0002-0003              2           2
+                         048D-0FFF            B73
+        STRING           0002-0003              2           2
+                         048D-0FFF            100
+
+                                  Symbol Table
+
+??_GetTimesHeartBeat                cstackBANK0  005A
+??_Init                             cstackBANK0  005A
+??_Interrupt                        cstackCOMMON 0075
+??_SendLine                         cstackBANK0  005E
+??_SendString                       cstackBANK0  005C
+??_SerialAvailable                  cstackBANK0  005A
+??_SerialRead                       cstackBANK0  005A
+??_SetSendingPWM                    cstackBANK0  005A
+??_SetUSART                         cstackBANK0  005A
+??_SetUSARTReceiverDisabled         cstackCOMMON 0075
+??_SetUSARTReceiverEnabled          cstackBANK0  005A
+??_delay                            cstackBANK0  005E
+??_evaluateCommand                  cstackBANK0  005A
+??_main                             cstackBANK0  006D
+??_read8                            cstackBANK0  005A
+??_serialCom                        cstackBANK0  0066
+??_setup                            cstackBANK0  0062
+??i1_SetUSARTReceiverEnabled        cstackCOMMON 0075
+?_GetTimesHeartBeat                 cstackCOMMON 0075
+?_Init                              cstackCOMMON 0075
+?_Interrupt                         cstackCOMMON 0075
+?_SendLine                          cstackCOMMON 0075
+?_SendString                        cstackBANK0  005A
+?_SerialAvailable                   cstackCOMMON 0075
+?_SerialRead                        cstackCOMMON 0075
+?_SetSendingPWM                     cstackCOMMON 0075
+?_SetUSART                          cstackCOMMON 0075
+?_SetUSARTReceiverDisabled          cstackCOMMON 0075
+?_SetUSARTReceiverEnabled           cstackCOMMON 0075
+?_delay                             cstackBANK0  005A
+?_evaluateCommand                   cstackCOMMON 0075
+?_main                              cstackCOMMON 0075
+?_read8                             cstackCOMMON 0075
+?_serialCom                         cstackCOMMON 0075
+?_setup                             cstackCOMMON 0075
+?i1_SetUSARTReceiverEnabled         cstackCOMMON 0075
+GetTimesHeartBeat@cNewHeartBeat     cstackBANK0  005C
+GetTimesHeartBeat@cTimes            cstackBANK0  005B
+SendLine@tcString                   cstackBANK0  005E
+SendString@nSendLinePos             cstackBANK0  005D
+SendString@tcString                 cstackBANK0  005A
+SerialRead@cResult                  cstackBANK0  005B
+SetSendingPWM@nFlag                 cstackBANK0  005C
+_ADCON0                             (abs)        001F
+_ADCS0                              (abs)        04FC
+_ADCS1                              (abs)        04FD
+_ADCS2                              (abs)        04FE
+_ADFM                               (abs)        00FF
+_ADON                               (abs)        00F8
+_ADRESH                             (abs)        001E
+_ADRESL                             (abs)        009E
+_ANSEL                              (abs)        0091
+_BRGH                               (abs)        00B2
+_CARRY                              (abs)        0018
+_CHS0                               (abs)        00FA
+_CHS1                               (abs)        00FB
+_CHS2                               (abs)        00FC
+_CMCON0                             (abs)        0019
+_CREN                               (abs)        00BC
+_EEADR                              (abs)        009B
+_EECON1                             (abs)        009C
+_EECON2                             (abs)        009D
+_EEDATA                             (abs)        009A
+_GIE                                (abs)        005F
+_GetTimesHeartBeat                  text677      0422
+_INTCON                             (abs)        000B
+_Init                               text680      030B
+_Interrupt                          text682      01D6
+_PEIE                               (abs)        005E
+_PIE1                               (abs)        008C
+_PORTA                              (abs)        0005
+_PORTC                              (abs)        0007
+_RA0                                (abs)        0028
+_RA1                                (abs)        0029
+_RA2                                (abs)        002A
+_RC0                                (abs)        0038
+_RC1                                (abs)        0039
+_RC2                                (abs)        003A
+_RC3                                (abs)        003B
+_RCIE                               (abs)        0465
+_RCIF                               (abs)        0065
+_RCREG                              (abs)        0014
+_RD                                 (abs)        04E0
+_SPBRG                              (abs)        0013
+_SPEN                               (abs)        00BF
+_SYNC                               (abs)        00B4
+_SendLine                           text671      03E9
+_SendString                         text676      0379
+_SerialAvailable                    text673      0487
+_SerialRead                         text674      03C8
+_SetSendingPWM                      text679      02C9
+_SetUSART                           text675      044D
+_SetUSARTReceiverDisabled           text684      0480
+_SetUSARTReceiverEnabled            text678      0472
+_T1CON                              (abs)        0010
+_TMR1H                              (abs)        000F
+_TMR1IE                             (abs)        0460
+_TMR1IF                             (abs)        0060
+_TMR1L                              (abs)        000E
+_TMR1ON                             (abs)        0080
+_TRISA                              (abs)        0085
+_TRISA0                             (abs)        0428
+_TRISA1                             (abs)        0429
+_TRISA2                             (abs)        042A
+_TRISC                              (abs)        0087
+_TRISC0                             (abs)        0438
+_TRISC1                             (abs)        0439
+_TRISC2                             (abs)        043A
+_TRISC3                             (abs)        043B
+_TRISC4                             (abs)        043C
+_TRISC5                             (abs)        043D
+_TRMT                               (abs)        00B1
+_TXEN                               (abs)        00B5
+_TXREG                              (abs)        0015
+_WPUA                               (abs)        0095
+_WR                                 (abs)        04E1
+_WREN                               (abs)        04E2
+__Habs1                             abs1         0000
+__Hbank0                            bank0        0000
+__Hbank1                            bank1        0000
+__Hbank2                            bank2        0000
+__Hbank3                            bank3        0000
+__HbssBANK0                         bssBANK0     0000
+__HbssBANK1                         bssBANK1     0000
+__HbssCOMMON                        bssCOMMON    0000
+__Hcinit                            cinit        0000
+__Hclrtext                          clrtext      0000
+__Hcode                             code         0000
+__Hcommon                           common       0000
+__Hconfig                           config       2008
+__HcstackBANK0                      cstackBANK0  0000
+__HcstackCOMMON                     cstackCOMMON 0000
+__Heeprom_data                      eeprom_data  0000
+__Hend_init                         end_init     0013
+__Hfunctab                          functab      0000
+__Hidloc                            idloc        0000
+__Hinit                             init         0011
+__Hintentry                         intentry     0011
+__Hmaintext                         maintext     0000
+__Hpowerup                          powerup      0000
+__Hram                              ram          0000
+__Hreset_vec                        reset_vec    0002
+__Hsfr0                             sfr0         0000
+__Hsfr1                             sfr1         0000
+__Hsfr2                             sfr2         0000
+__Hsfr3                             sfr3         0000
+__Hstrings                          strings      0000
+__Htext                             text         0000
+__Labs1                             abs1         0000
+__Lbank0                            bank0        0000
+__Lbank1                            bank1        0000
+__Lbank2                            bank2        0000
+__Lbank3                            bank3        0000
+__LbssBANK0                         bssBANK0     0000
+__LbssBANK1                         bssBANK1     0000
+__LbssCOMMON                        bssCOMMON    0000
+__Lcinit                            cinit        0000
+__Lclrtext                          clrtext      0000
+__Lcode                             code         0000
+__Lcommon                           common       0000
+__Lconfig                           config       2007
+__LcstackBANK0                      cstackBANK0  0000
+__LcstackCOMMON                     cstackCOMMON 0000
+__Leeprom_data                      eeprom_data  0000
+__Lend_init                         end_init     0011
+__Lfunctab                          functab      0000
+__Lidloc                            idloc        0000
+__Linit                             init         0011
+__Lintentry                         intentry     0004
+__Lmaintext                         maintext     0000
+__Lpowerup                          powerup      0000
+__Lram                              ram          0000
+__Lreset_vec                        reset_vec    0000
+__Lsfr0                             sfr0         0000
+__Lsfr1                             sfr1         0000
+__Lsfr2                             sfr2         0000
+__Lsfr3                             sfr3         0000
+__Lstrings                          strings      0000
+__Ltext                             text         0000
+__S0                                (abs)        2008
+__S1                                (abs)        00E0
+__S2                                (abs)        0000
+__end_of_GetTimesHeartBeat          text677      0438
+__end_of_Init                       text680      0347
+__end_of_Interrupt                  text682      026E
+__end_of_SendLine                   text671      0406
+__end_of_SendString                 text676      03A4
+__end_of_SerialAvailable            text673      048D
+__end_of_SerialRead                 text674      03E9
+__end_of_SetSendingPWM              text679      030B
+__end_of_SetUSART                   text675      045E
+__end_of_SetUSARTReceiverDisabled   text684      0487
+__end_of_SetUSARTReceiverEnabled    text678      0479
+__end_of_delay                      text681      0379
+__end_of_evaluateCommand            text670      0109
+__end_of_main                       maintext     03C8
+__end_of_read8                      text672      046A
+__end_of_serialCom                  text668      01D6
+__end_of_setup                      text669      02C9
+__end_ofi1_SetUSARTReceiverEnabled  text683      0480
+__pbssBANK0                         bssBANK0     0020
+__pbssBANK1                         bssBANK1     00A0
+__pbssCOMMON                        bssCOMMON    0070
+__pcstackBANK0                      cstackBANK0  005A
+__pcstackCOMMON                     cstackCOMMON 0075
+__pintentry                         intentry     0004
+__pmaintext                         maintext     03A4
+__pstrings                          strings      0406
+__ptext667                          text667      0000
+__ptext668                          text668      0109
+__ptext669                          text669      026E
+__ptext670                          text670      0013
+__ptext671                          text671      03E9
+__ptext672                          text672      045E
+__ptext673                          text673      0487
+__ptext674                          text674      03C8
+__ptext675                          text675      044D
+__ptext676                          text676      0379
+__ptext677                          text677      0422
+__ptext678                          text678      0472
+__ptext679                          text679      02C9
+__ptext680                          text680      030B
+__ptext681                          text681      0347
+__ptext682                          text682      01D6
+__ptext683                          text683      0479
+__ptext684                          text684      0480
+__ptext685                          text685      0000
+__size_of_GetTimesHeartBeat         (abs)        0000
+__size_of_Init                      (abs)        0000
+__size_of_Interrupt                 (abs)        0000
+__size_of_SendLine                  (abs)        0000
+__size_of_SendString                (abs)        0000
+__size_of_SerialAvailable           (abs)        0000
+__size_of_SerialRead                (abs)        0000
+__size_of_SetSendingPWM             (abs)        0000
+__size_of_SetUSART                  (abs)        0000
+__size_of_SetUSARTReceiverDisabled  (abs)        0000
+__size_of_SetUSARTReceiverEnabled   (abs)        0000
+__size_of_delay                     (abs)        0000
+__size_of_evaluateCommand           (abs)        0000
+__size_of_main                      (abs)        0000
+__size_of_read8                     (abs)        0000
+__size_of_serialCom                 (abs)        0000
+__size_of_setup                     (abs)        0000
+__size_ofi1_SetUSARTReceiverEnabled (abs)        0000
+_cHeartBeat                         bssCOMMON    0070
+_cOldHeartBeat                      bssCOMMON    0071
+_cStatePWM0                         bssBANK0     0052
+_cTimesHeartBeat                    bssBANK0     0053
+_checksum                           bssBANK0     0054
+_cmdMSP                             bssBANK0     0055
+_delay                              text681      0347
+_evaluateCommand                    text670      0013
+_exit                               init         0011
+_inBuf                              bssBANK1     00A0
+_indRX                              bssBANK0     0056
+_main                               maintext     03A4
+_nContTimesKey                      bssBANK0     0046
+_nPWM                               bssBANK0     004A
+_nPoint                             bssCOMMON    0072
+_nRAPU                              (abs)        040F
+_nSendingPWM                        bssBANK0     004E
+_nServo                             bssBANK0     0040
+_read8                              text672      045E
+_serialBufferRX                     bssBANK0     0020
+_serialCom                          text668      0109
+_serialCom$2238                     cstackBANK0  0067
+_serialCom$2239                     cstackBANK0  0069
+_serialHeadRX                       bssCOMMON    0073
+_serialTailRX                       bssCOMMON    0074
+_setup                              text669      026E
+btemp                               (abs)        007E
+clear_ram                           clrtext      046A
+delay@tnDelay                       cstackBANK0  005A
+end_of_initialization               cinit        044A
+evaluateCommand@c                   cstackBANK0  005C
+evaluateCommand@cTemp               cstackBANK0  0065
+evaluateCommand@nChannel            cstackBANK0  0061
+evaluateCommand@nEncode             cstackBANK0  0063
+evaluateCommand@nEncodeHigh         cstackBANK0  005F
+evaluateCommand@nEncodeLow          cstackBANK0  005D
+i1_SetUSARTReceiverEnabled          text683      0479
+interrupt_function                  intentry     0004
+intlevel0                           functab      0000
+intlevel1                           functab      0000
+intlevel2                           functab      0000
+intlevel3                           functab      0000
+intlevel4                           functab      0000
+intlevel5                           functab      0000
+reset_vec                           reset_vec    0000
+saved_w                             (abs)        007E
+serialCom@c                         cstackBANK0  006C
+serialCom@cc                        cstackBANK0  006B
+serialCom@dataSize                  bssBANK0     0057
+serialCom@offset                    bssBANK0     0058
+serialCom@state                     bssBANK0     0059
+setup@i                             cstackBANK0  0066
+start                               init         0011
+start_initialization                cinit        0438
+wtemp0                              (abs)        007E
